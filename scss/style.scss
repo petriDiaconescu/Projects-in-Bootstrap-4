@@ -1,5 +1,13 @@
 $primary-color: #3b5a76;
 $background-color: #ededed;
-$test-color: #363636;
+$text-color: #363636;
 $font-size: 16px;
+
+body {
+  padding-bottom: 0;
+  font-family: 'Open Sans', Arial, Tahoma;
+  color: $text-color;
+  background: $background-color;
+  font-size: $font-size;
+}
 
