@@ -48,3 +48,40 @@ header {
     line-height: 1.4em;
   }
 }
+
+.row {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto -80px;
+  position: relative;
+  top: -80px;
+}
+
+.line {
+  max-width: 100%;
+}
+
+.contact-list {
+  padding: 0;
+  margin: 0;
+  
+  li {
+    list-style: none;
+    font-weight: bold;
+    line-height: 3.2em;
+  }
+  
+  span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 0.1em;
+    margin-left: 37px;
+    font-size: 15px;
+    color: #ccc;
+  }
+}
+
