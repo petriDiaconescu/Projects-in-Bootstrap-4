@@ -81,3 +81,14 @@ header {
     top: 50%;
   }
 }
+
+.comment-form {
+  .form-group {
+    width: calc(100% - 56px);
+    margin-bottom: 0;
+  }
+  
+  input[type='text']{
+    width: 100%;
+  }
+}
