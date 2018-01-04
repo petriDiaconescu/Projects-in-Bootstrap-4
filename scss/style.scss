@@ -110,3 +110,20 @@ header {
   width: 2.5rem;
   margin-right: 0.313rem;
 }
+
+.friends {
+  margin: 0 -.313rem 1.4rem;
+  
+  .list-inline {
+    text-align: center;
+  }
+  
+  li {
+    margin: 0;
+    padding: .25rem .313rem;
+  }
+  
+  img {
+    width: 4rem;
+  }
+}
