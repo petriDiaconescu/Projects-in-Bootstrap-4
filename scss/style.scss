@@ -27,3 +27,20 @@ header {
 .form-group {
   padding: 0 .125rem;
 }
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.card-heading {
+  background-image: linear-gradient(#04519b, #044687, #033769);
+  color: #fff;
+  padding: .75rem 1rem;
+  .card-title {
+    margin-bottom: 0;
+  }
+}
