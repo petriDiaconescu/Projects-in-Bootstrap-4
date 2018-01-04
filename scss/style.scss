@@ -127,3 +127,16 @@ header {
     width: 4rem;
   }
 }
+
+.group-item {
+  padding-bottom: .75rem;
+  margin-bottom: 1.4rem;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.groups img {
+  width: 5rem;
+  float: left;
+  margin-right: 1rem;
+}
