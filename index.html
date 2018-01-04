@@ -9,11 +9,145 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+    <title>Dobble</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-4">
+            <img src="img/logo.png" alt="" class="img-fluid" />
+            
+          </div><!-- col-lg-6 col-md-4 end -->
+          <div class="col-lg-6 col-md-8">
+            <form action="" class="form-inline">
+              <div class="form-group">
+                <div class="form-group">
+                  <label class="sr-only" for="email">Email Address</label>
+                  <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="password">Password</label>
+                  <input type="password" name="password" class="form-control" placeholder="Enter Password">
+                </div>
+                <button type="submit" class="btn btn-light">Sign In</button>
+              </div><!-- form-group end--> 
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" />Remember Me
+                </label>  
+              </div>
+            </form>
+          </div><!-- col-lg-6 col-md-8 end -->
+        </div>
+      </div>
+    </header> 
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" 
+        data-target="#navbarsExample09" aria-controls="navbarsExample09"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="members.html" class="nav-link">Members</a></li>
+            <li><a href="groups.html" class="nav-link">Groups</a></li>
+            <li><a href="photos.html" class="nav-link">Photos</a></li>
+            <li><a href="profile.html" class="nav-link">Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="card">
+              <div class="card-heading">
+                <h6 class="card-title">Wall</h6>
+              </div><!-- card-heading end -->
+              <div class="card-body">
+                <form action="">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Write on the Wall"></textarea>
+                  </div><!-- form-group end -->
+                  <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                  <div class="float-right">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa fa-pencil"></i> Text
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa fa-file-image-o"></i> Image
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa fa-file-video-o"></i> Video
+                      </button>
+                    </div>
+                  </div><!-- float-right end -->  
+                </form>
+              </div><!-- card-body end -->
+            </div><!-- card end -->
+            
+            <div class="card post">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <a href="profile.html" class="post-avatar thumbnail">
+                      <img src="img/user.png" alt="" class="img-fluid" />
+                      <div class="text-center">DevUser1</div>
+                    </a>
+                    <div class="text-center">7 Likes</div>
+                  </div><!-- col-sm-2 end -->
+                  
+                  <div class="col-sm-10">
+                    <div class="bubble">
+                      <div class="pointer">
+                        <p>
+                          Există o mulţime de variaţii disponibile ale pasajelor Lorem Ipsum, dar majoritatea 
+                          lor au suferit alterări într-o oarecare măsură prin infiltrare de elemente de umor, 
+                          sau de cuvinte luate aleator, care nu sunt câtuşi de puţin credibile. Daca vreţi să 
+                          folosiţi un pasaj de Lorem Ipsum, trebuie să vă asiguraţi că nu conţine nimic 
+                          stânjenitor ascuns printre randuri. 
+                        </p>
+                      </div><!-- pointer end -->
+                      <div class="pointer-border"></div><!-- pointer-border end -->
+                    </div><!-- bubble end -->
+                    
+                    <div class="comment-form">
+                      <form action="" class="form-inline">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Enter Comment"/>
+                        </div>  
+                      </form>
+                    </div><!-- comment-form end -->
+                    <div class="clearfix"></div>
+                    <div class="comments">
+                      <div class="comment">
+                        <a href="#" class="comment-avater float-left">
+                          <img src="img/user.png" alt="" class="img-fluid" />
+                        </a>
+                        <div class="comment-text">
+                          <p>
+                            E un fapt bine stabilit că cititorul va fi sustras de conţinutul citibil al unei pagini
+                          </p>
+                        </div>
+                      </div><!-- comment end -->
+                      <div class="clearfix"></div>
+                    </div><!-- comments end -->
+                  </div><!-- col-sm-10 end -->
+                </div><!-- row end -->
+              </div><!-- card-body end -->
+            </div><!-- card post end -->
+          </div><!-- col-lg-8 end -->
+          <div class="col-lg-4"></div><!-- col-lg-4 end -->
+        </div>
+      </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.min.js" ></script>

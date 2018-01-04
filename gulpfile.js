@@ -38,4 +38,5 @@ gulp.task('watch', function(){
   gulp.watch('scss/*.scss', ['sass'])
 });
 
-gulp.task('default', ['move-js', 'move-fonts', 'move-font-awesome-css', 'sass', 'watch']);
+//gulp.task('default', ['move-js', 'move-fonts', 'move-font-awesome-css', 'sass', 'watch']);
+gulp.task('default', ['sass', 'watch']);
