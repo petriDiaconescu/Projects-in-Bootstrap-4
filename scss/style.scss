@@ -92,3 +92,12 @@ header {
     width: 100%;
   }
 }
+
+.comment {
+  border: 1px solid #ccc;
+  border-radius: .313rem;
+  padding: .25rem;
+  margin: .313rem 0;
+  overflow: auto;
+  width: 100%;
+}
