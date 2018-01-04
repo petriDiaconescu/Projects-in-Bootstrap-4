@@ -151,3 +151,19 @@ footer {
   margin-top: 2rem;
   border-top: 7px solid #04519b;
 }
+
+.photos {
+  margin: 0;
+  padding: 0;
+}
+
+.photos li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+  width: 23%;
+}
+
+.photos img {
+  width: 100%;
+}
