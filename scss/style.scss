@@ -175,6 +175,45 @@ a {
 	}
 }
 
+.who-section{
+	width:100%;
+	padding:3rem 0;
+	color:$light;
+	background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+	background-color:$dark;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+@media(min-width:767px) {
+	.who-section{
+		padding: 6rem 0;
+	}
+}
+
+
+// Client Section
+
+#clients{
+	text-align:center;
+	padding-bottom:5rem;
+
+	.list-inline{
+		letter-spacing: -6px;
+		margin: 0 -1rem 1rem;
+
+		li{
+			letter-spacing: 0;
+			padding: .5rem 1rem;
+			vertical-align: middle;
+		}
+	}
+	
+}
+
+
 //Footer Section
 footer {
   margin-top: .75rem;
