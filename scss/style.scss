@@ -145,3 +145,30 @@ a {
     font-size: 1.7rem;
   }
 }
+
+//Footer Section
+footer {
+  margin-top: .75rem;
+  padding-top: 2rem;
+  height: 80px;
+  text-align: center;
+}
+
+.page-scroll{
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -webkit-transform;
+	-moz-transition-duration: 1s;
+}
+
+.banner-social-buttons{
+	letter-spacing: -6px;
+	margin: 0 -.5rem 1rem;
+	li{
+		vertical-align: middle;
+		margin: 0 !important;
+		padding: 0 .5rem .5rem;
+		letter-spacing: 0;
+
+	}
+}
